@@ -1,0 +1,49 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+.main{
+	text-align: center;
+}
+.google{
+	width: 540px;
+	height: 280px;
+	
+	margin: 150px auto;
+}
+.google .input input{
+	width: 100%;
+	padding: 12px 5px;
+	box-sizing: border-box;
+	border-radius: 100px;
+	outline: none;
+    color: #202124;
+    border: 1px solid #dfe1e5;
+    margin: 15px 0px;
+}
+.google .input input:hover{
+	box-shadow: 0px 0px 4px rgb(183, 137, 137);
+}
+.btn button {
+	margin: 10px 10px;
+	padding: 10px 20px;
+	border: 1px solid #dfe1e5;
+	background-color:  rgb(255, 255, 255);
+	border-radius: 4px;
+	transition: 0s;
+
+ }
+ .btn button:hover{
+ 	background-color: #dfe1e5;
+ }
+ .btn p {
+ 	margin: 20px 0px;
+
+ }
+ .btn p a:hover{
+ 	text-decoration: underline;
+
+ }
